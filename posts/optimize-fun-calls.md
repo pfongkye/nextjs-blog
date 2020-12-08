@@ -9,11 +9,11 @@ We usually use three methods when we want to mitigate calls on events like scrol
 
 ## Debounce
 
-The debounce method is used to delay multiple calls and call the last one afer the delay for example. This method is usually used to on resizing an element using a mouse or when typing in a text area for example.
+The debounce method is used to delay multiple calls and call the last one afer the delay for example. This method is usually used on resizing an element using a mouse or when typing in a text area for example.
 
 ## Throttle 
 
-The throttle (rate-limiting) method allows a call to be made for every *X* time for example. It is useful to check the scrolling position for example.
+The throttle (rate-limiting) method allows a call to be made for every *X* time and is useful to check the scrolling position for example.
 
 ## RequestAnimationFrame
 

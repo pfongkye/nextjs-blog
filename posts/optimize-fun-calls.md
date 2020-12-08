@@ -1,6 +1,6 @@
 ---
 title: 'Debounce, Throttle and RequestAnimationFrame'
-date: '2020-12-03'
+date: '2020-12-08'
 ---
 
 # Optimize function calls on event handling

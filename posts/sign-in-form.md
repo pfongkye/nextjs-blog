@@ -15,7 +15,7 @@ To keep users coming to your site again, some good practices to keep in mind:
 - Avoid having user change password regularly. Studies show that it is not more robust
 - Gather data analytics to improve user experience (for example how many times the `forgot password` link has been clicked)
 
-## Additionale resources
+## Additional resources
 
 An article on form best practices can be found [here](https://web.dev/sign-in-form-best-practices/).
 

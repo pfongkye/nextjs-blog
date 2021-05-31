@@ -26,12 +26,12 @@ My team did the following:
     - we tried a default configuration but found out that it was returning too many errors.
     - we were indeed caching every request regardless of the query parameters.
     - we took into consideration the query parameters and it worked great afterwards.
-    - we supposed the returning errors were not cached even if we were not sure.
+    - we supposed the returning errors were not cached even if we were not sure when looking into the logs.
 - we wanted to go further by implementing retries but didn't succeed.
 - we then saw in the announcement channel that the v2 of the binary server had the error status fixed.
 - we decided to upload this image to the cluster to get the maximum points.
 
-We finally made it to 3rd position even if we were almost 2nd all the time. But it was a great experience.
+We finally made it to 3rd position even if we were striving to secure the second place. But it was a great experience.
 
 ## Further reading
 

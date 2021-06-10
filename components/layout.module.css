@@ -20,6 +20,11 @@
     height: 8rem;
 }
 
+.headerImage, .headerHomeImage {
+    border: 1px solid gray;
+    object-fit: cover;
+}
+
 .backToHome {
     margin: 3rem 0 0;
 }

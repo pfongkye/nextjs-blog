@@ -5,6 +5,8 @@ date: '2021-05-28'
 
 # AWS Game day @ ManoMano
 
+<img src="/images/manomano_gameday.png" alt="AWS Game Day" title="AWS Game Day" width="200" height="200" style="margin:auto">
+
 We had a game day event organised by ManoMano in collaboration with [AWS](https://aws.amazon.com/fr/).
 
 The idea was to process incoming requests as much as possible given a server binary, by using the different possibilities offered by AWS. The first version of the server would sometimes return an error status.
@@ -35,5 +37,6 @@ We finally made it to 3rd position even if we were striving to secure the second
 
 ## Further reading
 
+- A more detailed [article](https://medium.com/manomano-tech/be-bold-to-better-prevent-outages-ae7f94b9c4b1) written by [Clement Hussenot](https://www.linkedin.com/in/chussenot/), Platform Engineering Manager at ManoMano
 - A possible [solution](https://github.com/rumd3x/aws-gameday-unicorn)
 

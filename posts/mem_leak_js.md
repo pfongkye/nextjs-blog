@@ -1,6 +1,6 @@
 ---
 title: 'Memory Leak Hunter'
-date: '2020-08-23'
+date: '2021-08-23'
 ---
 
 [Memory leaks](https://web.dev/detached-window-memory-leaks/) can be tricky to detect in JavaScript, particularly in detached windows.

@@ -12,6 +12,8 @@ Some security testing can be performed through methods like:
 - DAST: Dynamic Application Security Testing
 - Penetration testing
 
+![image](https://user-images.githubusercontent.com/1062699/147394055-86144b6c-8e37-46e1-8491-0db88dfdc373.png)
+
 [Snyk](https://snyk.io/) is a tool that performs SCA and [Stackhawk](https://www.stackhawk.com/) is another tool that can do DAST.
 
 # Resources

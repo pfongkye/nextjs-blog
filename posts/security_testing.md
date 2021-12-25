@@ -20,3 +20,4 @@ Some security testing can be performed through methods like:
 - [Shift-left](https://snyk.io/learn/shift-left-testing/) security testing
 - [OWASP ZAP](https://www.zaproxy.org/)
 - [Comparison](https://www.stackhawk.com/blog/zap-vs-stackhawk-comparison/) between ZAP and Stackhawk
+- [Snyk CLI](https://docs.snyk.io/features/snyk-cli/install-the-snyk-cli) installation

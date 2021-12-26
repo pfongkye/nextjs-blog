@@ -11,7 +11,7 @@ The guideline walks us through the different steps needed to run Lighthouse CI l
 
 ![image](https://user-images.githubusercontent.com/1062699/147420344-7c6aa94c-e0a7-4951-9935-21b9f128599e.png)
 
-The reports are stored publicly as stated in a [configuration file](https://github.com/pfongkye/nextjs-blog/blob/main/lighthouserc.js). They can also be stored internally if a Lighthouse Server is set up.
+The reports are stored publicly as stated in a [configuration file](https://github.com/pfongkye/nextjs-blog/blob/main/lighthouserc.js). They can also be stored internally if a [Lighthouse Server](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md) is set up.
 
 | Checks | Report |
 |--------|--------|

@@ -15,6 +15,6 @@ The reports are stored publicly as stated in a [configuration file](https://gith
 
 | Checks | Report |
 |--------|--------|
-|![image](https://user-images.githubusercontent.com/1062699/147420475-5af61cb0-83e0-41ab-a1a5-5a958217402d.png)|![image](https://user-images.githubusercontent.com/1062699/147420496-e3fe087d-510e-4d66-8749-dce05c7ac12a.png)|
+|![image](https://user-images.githubusercontent.com/1062699/147420475-5af61cb0-83e0-41ab-a1a5-5a958217402d.png)|![image](https://user-images.githubusercontent.com/1062699/147421101-71d12013-d10b-45ba-afd2-ecf482a1b589.png)|
 
 An example of project using a Lighthouse configuration and GitHub actions can be found [here](https://github.com/pfongkye/nextjs-blog).

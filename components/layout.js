@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+import profilePic from './pfk_profile.png';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
 
 const name = 'Pascal';
 export const siteTitle = 'Pascal Blog';
@@ -19,7 +21,7 @@ export default function Layout({ children, home }) {
         <header className={styles.header}>
             {home ? (
                 <>
-                    <img src="/images/pfk_profile.png"
+                    <Image src={profilePic}
                         className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                         alt={name} 
                         width={2482} height={3508}/>
@@ -29,10 +31,10 @@ export default function Layout({ children, home }) {
                     <>
                         <Link href="/">
                             <a>
-                                <img
-                                    src="/images/pfk_profile.png"
+                                <Image
+                                    src={profilePic}
                                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                    alt={name} />
+                                    alt={name}/>
                             </a>
                         </Link>
                         <h2 className={utilStyles.headingLg}>

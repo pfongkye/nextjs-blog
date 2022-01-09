@@ -5,14 +5,15 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, quote }) {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>A simple blog built using <a href="https://nextjs.org/learn">Next.js</a></p>
+        {quote? <><p className={utilStyles.quote}>"{quote.content}"</p><p className={utilStyles.quoteAuthor}>- {quote.author}</p></> : <p>Welcome to my blog.</p>}
+
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
@@ -34,9 +35,18 @@ export default function Home({ allPostsData }) {
   )
 }
 
+// This function gets called at build time on server-side.
+// It may be called again, on a serverless function, if
+// revalidation is enabled and a new request comes in
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  const res = await fetch('https://api.quotable.io/random');
+  const quote = await res.json();
   return {
-    props: { allPostsData }
+    props: { allPostsData, quote },
+        // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 60 seconds
+    revalidate: 60, // In seconds
   };
 }

@@ -50,3 +50,13 @@
 .lightText {
     color: #999;
 }
+
+.quote {
+    font-weight: bold;
+    color:darkviolet;
+}
+
+.quoteAuthor {
+    font-weight: lighter;
+    font-style: italic;
+}

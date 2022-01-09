@@ -1,7 +1,7 @@
 module.exports = {
     ci:{
         collect: {
-            url: ['http://localhost:3000'],
+            url: ['http://localhost:3000', 'http://localhost:3000/posts/lighthouse_ci'],
             startServerCommand: 'npm run lighthouse:start'
         },
         assert: {

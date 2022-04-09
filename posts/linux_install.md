@@ -17,4 +17,4 @@ The following are the different steps I took to install the OS:
 - Restart computer and configure boot options (HP: tap F10 and change order of boot, save and exit).
 - Follow installation instructions.
 
-The installation was done without any issues and the laptop seems to run fast enough for its age.
+The installation completed without any issues. Although the laptop takes a quite long time to boot, it seems to run smooth enough for its age.

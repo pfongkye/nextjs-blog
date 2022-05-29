@@ -19,4 +19,5 @@ StackHawk is a DAST tool built upon OWASP ZAP. For example, it can scan a runnin
 I integrated StackHawk with my [Next.js blog](https://github.com/pfongkye/nextjs-blog) using [GitHub actions](https://docs.stackhawk.com/continuous-integration/github-actions.html).
 There are two config files that are added before StackHawk can start scanning: the [GitHub workflow](https://github.com/pfongkye/nextjs-blog/blob/main/.github/workflows/hawkscan.yml) file and the [configuration file](https://github.com/pfongkye/nextjs-blog/blob/main/stackhawk.yml) that contains the endpoint to scan. 
 
-What I find particularly interesting with this tool is that for each potential security risk, there is a clear explanation of the problem. And from this explanation, you decide how to act on the issue.
+What I find particularly interesting with this tool is that for each potential security risk, there is a clear explanation of the problem. And from this explanation, you decide how to act on the issue:
+![image](https://user-images.githubusercontent.com/1062699/170891632-feddaf85-d814-4f67-9ac4-cfca7a0a2c7e.png)

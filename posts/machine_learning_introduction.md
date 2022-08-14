@@ -11,11 +11,11 @@ You can find below some resources to machine learning presentations that occured
 
 This [session](https://opensourcelive.withgoogle.com/events/machinelearning-day-2022?talk=session1) presents a toolkit which helps to ensure model fairness, transparency and interpretability.
 
-Example: accuracy as [North Star Metrics](https://blog.growthhackers.com/what-is-a-north-star-metric-b31a8512923f) for sentiment analysis.
+Example: How to improve accuracy as [North Star Metrics](https://blog.growthhackers.com/what-is-a-north-star-metric-b31a8512923f) for sentiment analysis.
 
 ## TensorFlow Hub
 
-This [session](https://opensourcelive.withgoogle.com/events/machinelearning-day-2022?talk=session2) introduces [TensorFlow Hub](https://www.tensorflow.org/hub), a place where you can find helpful resources like high quality models to start you machine learning journey.
+This [session](https://opensourcelive.withgoogle.com/events/machinelearning-day-2022?talk=session2) introduces [TensorFlow Hub](https://www.tensorflow.org/hub), a place where you can find helpful resources like high quality models to start your machine learning journey.
 
 ## TensorFlow Lite
 

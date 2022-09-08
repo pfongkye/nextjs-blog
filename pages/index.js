@@ -11,9 +11,9 @@ export default function Home({ allPostsData, quote }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Link className={utilStyles.playgroundLink} href='/playground'>Playground &gt;</Link>
       <section className={utilStyles.headingMd}>
         {quote? <><p className={utilStyles.quote}>"{quote.content}"</p><p className={utilStyles.quoteAuthor}>- {quote.author}</p></> : <p>Welcome to my blog.</p>}
-
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

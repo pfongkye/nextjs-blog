@@ -37,10 +37,31 @@
     padding-top: 1px;
 }
 
-.playgroundLink {
+.menu {
     position:absolute;
     top: 1rem;
-    right: 1rem;
+}
+@media (min-width:600px){
+    .menu {
+        right: 1rem;
+    }
+    .menuList {
+        right: 0;
+    }
+}
+
+.menuList {
+    display:none;
+    position: absolute;
+    list-style-type: none;
+    margin:0;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.menuListOpen {
+    display:block;
 }
 
 .list {

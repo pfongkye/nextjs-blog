@@ -1,17 +1,27 @@
 import Head from 'next/head'
+import { useState } from 'react';
+import Link from 'next/link';
+import classNames from 'classnames';
+
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
 import Date from '../components/date';
 
 export default function Home({ allPostsData, quote }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Link href='/playground'><a className={utilStyles.playgroundLink}>Playground &gt;</a></Link>
+      <div className={utilStyles.menu}>
+      <button onClick={()=>setIsMenuOpen(prevState=>!prevState)}>Menu</button>
+      <ul className={classNames(utilStyles.menuList, {[utilStyles.menuListOpen]: isMenuOpen})}>
+        <li><Link href='/playground'><a>Playground</a></Link></li>
+        <li><Link href='/garden'><a>Digital Garden</a></Link></li>
+      </ul>
+      </div>
       <section className={utilStyles.headingMd}>
         {quote? <><p className={utilStyles.quote}>"{quote.content}"</p><p className={utilStyles.quoteAuthor}>- {quote.author}</p></> : <p>Welcome to my blog.</p>}
       </section>

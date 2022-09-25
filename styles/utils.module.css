@@ -45,10 +45,14 @@
     .menu {
         right: 1rem;
     }
+    .menuList {
+        right: 0;
+    }
 }
 
 .menuList {
     display:none;
+    position: absolute;
     list-style-type: none;
     margin:0;
     background-color: white;

@@ -9,6 +9,11 @@
             "title": "The Community Canvas",
             "link": "https://community-canvas.org/",
             "tag": "soft_skills"
+        },
+        {
+            "title": "Rustup Installer For Rust",
+            "link": "https://rustup.rs/",
+            "tag": "tools"
         }
     ]
 }

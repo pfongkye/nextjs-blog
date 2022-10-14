@@ -14,6 +14,11 @@
             "title": "Rustup Installer For Rust",
             "link": "https://rustup.rs/",
             "tag": "tools"
+        },
+        {
+            "title": "Creative List Styling",
+            "link": "https://web.dev/creative-list-styling/",
+            "tag": "css"
         }
     ]
 }

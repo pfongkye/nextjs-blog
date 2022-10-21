@@ -19,6 +19,11 @@
             "title": "Creative List Styling",
             "link": "https://web.dev/creative-list-styling/",
             "tag": "css"
+        },
+        {
+            "title": "Inclusive Cards",
+            "link": "https://inclusive-components.design/cards/",
+            "tag": "accessibility"
         }
     ]
 }

@@ -29,6 +29,11 @@
             "title": "Web Scraping",
             "link": "https://blog.apify.com/web-scraping-guide/",
             "tag": "scraping"
+        },
+        {
+            "title": "Learning By Example: Web Apps",
+            "link": "https://tastejs.com/movies/",
+            "tag": "web_development"
         }
     ]
 }

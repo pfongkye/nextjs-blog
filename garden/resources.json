@@ -24,6 +24,11 @@
             "title": "Inclusive Cards",
             "link": "https://inclusive-components.design/cards/",
             "tag": "accessibility"
+        },
+        {
+            "title": "Web Scraping",
+            "link": "https://blog.apify.com/web-scraping-guide/",
+            "tag": "scraping"
         }
     ]
 }

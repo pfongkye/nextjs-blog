@@ -34,6 +34,11 @@
             "title": "Learning By Example: Web Apps",
             "link": "https://tastejs.com/movies/",
             "tag": "web_development"
+        },
+        {
+            "title": "Web Learning",
+            "link": "https://web.dev/learn/",
+            "tag": "web_development"
         }
     ]
 }

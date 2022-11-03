@@ -39,6 +39,21 @@
             "title": "Web Learning",
             "link": "https://web.dev/learn/",
             "tag": "web_development"
+        }, 
+        {
+            "title": "Write The Docs", 
+            "link": "https://www.writethedocs.org/", 
+            "tag": "documentation"
+        }, 
+        {
+            "title": "Google Developer Guide", 
+            "link": "https://techdevguide.withgoogle.com/", 
+            "tag": "learning"
+        }, 
+        {
+            "title": "Lydia Hallie's Resources", 
+            "link": "https://www.lydiahallie.io/", 
+            "tag": "web_development"
         }
     ]
 }

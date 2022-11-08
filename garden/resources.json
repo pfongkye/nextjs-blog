@@ -54,6 +54,11 @@
             "title": "Lydia Hallie's Resources", 
             "link": "https://www.lydiahallie.io/", 
             "tag": "web_development"
+        },
+        {
+            "title": "Nest.js: Progressive Node.js framework", 
+            "link": "https://nestjs.com/", 
+            "tag": "tools"
         }
     ]
 }

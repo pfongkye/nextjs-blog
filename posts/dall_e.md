@@ -9,4 +9,4 @@ date: '2022-11-19'
 
 An example of image generation using DALL-E preview [application](https://labs.openai.com/) using the prompt `tinkering with dall-e` is given below. The more precise the description, the more accurate is the generation of the images. You can also create variations from the originally generated images.
 
-<img src="/images/tinkering_dall_e.png" alt="Tinkering with DALL-E" title="Tinkering with DALL-E" width="200" height="200" style="margin:auto">
+![Tinkering with DALL-E](/images/tinkering_dall_e.png)

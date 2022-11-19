@@ -5,7 +5,7 @@ date: '2021-05-28'
 
 # AWS Game day @ ManoMano
 
-<img src="/images/manomano_gameday.png" alt="AWS Game Day" title="AWS Game Day" width="200" height="200" style="margin:auto">
+![](/images/manomano_gameday.png)
 
 We had a game day event organised by ManoMano in collaboration with [AWS](https://aws.amazon.com/fr/).
 

@@ -18,8 +18,8 @@ export default function Home({ allPostsData, quote }) {
       <div className={utilStyles.menu}>
       <button onClick={()=>setIsMenuOpen(prevState=>!prevState)}>Menu</button>
       <ul className={classNames(utilStyles.menuList, {[utilStyles.menuListOpen]: isMenuOpen})}>
-        <li><Link href='/playground'><a>Playground</a></Link></li>
-        <li><Link href='/garden'><a>Digital Garden</a></Link></li>
+        <li><Link href='/playground'>Playground</Link></li>
+        <li><Link href='/garden'>Digital Garden</Link></li>
       </ul>
       </div>
       <section className={utilStyles.headingMd}>
@@ -31,7 +31,7 @@ export default function Home({ allPostsData, quote }) {
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
@@ -42,7 +42,7 @@ export default function Home({ allPostsData, quote }) {
         </ul>
       </section>
     </Layout>
-  )
+  );
 }
 
 // This function gets called at build time on server-side.

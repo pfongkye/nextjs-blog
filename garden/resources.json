@@ -59,6 +59,11 @@
             "title": "Nest.js: Progressive Node.js framework", 
             "link": "https://nestjs.com/", 
             "tag": "tools"
+        },
+        {
+            "title": "JavaScript Tutorial",
+            "link": "https://javascript.info/",
+            "tag": "learning"
         }
     ]
 }

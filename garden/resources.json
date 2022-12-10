@@ -69,6 +69,11 @@
             "title": "Transformation Tools",
             "link": "https://transform.tools/html-to-jsx",
             "tag": "tools"
+        }, 
+        {
+            "title": "CNCF Glossary",
+            "link": "https://glossary.cncf.io/",
+            "tag": "learning"
         }
     ]
 }

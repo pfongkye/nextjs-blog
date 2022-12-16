@@ -60,7 +60,8 @@ spec:
       port: 80
       targetPort: 3000
 
-# then we decided to use a loadbalancer service (hint from quest)
+# then we decided to use a loadbalancer service 
+# (hint from quest)
 apiVersion: v1
 kind: Service
 metadata:
@@ -74,10 +75,12 @@ spec:
   type: LoadBalancer
 ```
 
- We had some port exposure issues on the load balancer service which resulted in unhealthy checks. We had to force the port exposure using the following command:
+ We had some port exposure issues on the load balancer service which resulted in [unhealthy checks](https://kubebyexample.com/concept/health-checks).
+ We had to force the port exposure using the following command:
 
  ```cmd
- kubectl expose deployment/gameday-deployment --port=80 --target-port=3000 --type LoadBalancer
+ kubectl expose deployment/gameday-deployment \ 
+ --port=80 --target-port=3000 --type LoadBalancer
  ```
 
  After getting our service up and running, we moved to [Graviton processors](https://aws.amazon.com/ec2/graviton/) ([ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family)) in order to reduce carbon footprint and optimize cost.

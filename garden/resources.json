@@ -74,6 +74,11 @@
             "title": "CNCF Glossary",
             "link": "https://glossary.cncf.io/",
             "tag": "learning"
+        }, 
+        {
+            "title": "Microservice Architecture", 
+            "link": "https://microservices.io/", 
+            "tag": "learning"
         }
     ]
 }

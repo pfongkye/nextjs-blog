@@ -79,6 +79,26 @@
             "title": "Microservice Architecture", 
             "link": "https://microservices.io/", 
             "tag": "learning"
+        },
+        {
+            "title": "Dracula UI: Patterns And Components",
+            "link": "https://ui.draculatheme.com/",
+            "tag": "tools"
+        },
+        {
+            "title": "Sandpack: Live Coding in Browser",
+            "link": "https://sandpack.codesandbox.io/docs",
+            "tag": "tools"
+        },
+        {
+            "title": "Amazon Builders' Library",
+            "link": "https://aws.amazon.com/builders-library/",
+            "tag": "learning"
+        },
+        {
+            "title": "Architecture Notes",
+            "link": "https://architecturenotes.co/",
+            "tag": "learning
         }
     ]
 }

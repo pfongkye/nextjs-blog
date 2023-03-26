@@ -18,3 +18,7 @@ The following are the different steps I took to install the OS:
 - Follow installation instructions.
 
 The installation completed without any issues. Although the laptop takes a quite long time to boot, it seems to run smooth enough for its age.
+
+## [UPDATE] 2023-03-26
+
+The Ubuntu distribution installed was consuming more resources than the laptop could handle. So I decided to find another alternative and after googling, I discovered [Linux Lite](https://www.linuxliteos.com/) which could be a better fit. Also, I stumbled upon [etcher](https://www.balena.io/etcher) which can be used to flash OS images on USB. I decided to give it a try and install Linux Lite in place of Ubuntu. 

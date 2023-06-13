@@ -99,6 +99,11 @@
             "title": "Architecture Notes",
             "link": "https://architecturenotes.co/",
             "tag": "learning"
+        },
+        {
+            "title": "Regexp Library",
+            "link": "https://www.regexlib.com/",
+            "tag": "tools"
         }
     ]
 }

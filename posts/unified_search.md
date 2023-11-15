@@ -31,7 +31,13 @@ I faced some difficulties to have the correct permissions to connect the index t
 - Create a new IAM role each time a new secret is created to propagate the correct permissions from the secret manager.
 - Read carefully the error logs that surface from data synchronizations. Check Cloudwatch logs. Example of log due to IAM role restricted access:
 ```cmd	
-Unable to fetch customers secret. Error from secrets manager service: User: arn:aws:sts::<number>:assumed-role/<name>/AWSKendraDataConnectorServiceLambda is not authorized to perform: secretsmanager:GetSecretValue on resource: arn:aws:secretsmanager:eu-west-1:<number>:secret:<name> because no identity-based policy allows the secretsmanager:GetSecretValue action
+Unable to fetch customers secret.
+Error from secrets manager service: User:
+arn:aws:sts::<number>:assumed-role/<name>/AWSKendraDataConnectorServiceLambda
+is not authorized to perform: secretsmanager:GetSecretValue on resource:
+arn:aws:secretsmanager:eu-west-1:<number>:secret:<name>
+because no identity-based policy allows the
+secretsmanager:GetSecretValue action
 ```
 - I thought that I had to create a new experience in Amazon Kendra to be able to search from a new created data source. In fact the Google drive data source had ACL (access control list) and [identity crawler](https://docs.aws.amazon.com/kendra/latest/dg/create-index-access-control.html) activated that filtered user which could access the contents. I had to reindex the data source to apply the modifications. I also changed the IAM role of the data source but I'm not sure it is related to the access content.
 - For filtering on documents, I need to use document enrichment and make the field facetable. A reindex is needed.
